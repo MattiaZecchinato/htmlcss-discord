@@ -14,7 +14,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-div > div {
+div > * {
 
     border: 2px dashed #000000;
 }
@@ -43,7 +43,7 @@ h2 {
 p {
 
     font-size: 27px;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 
@@ -62,12 +62,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 240px;
-}
-
-.bar-container > div {
-
-    padding: 15px;
+    padding: 10px 150px;
 }
 
 /* bar-container elements */
@@ -81,8 +76,9 @@ header {
 
 .logo-box img {
 
-    width: 247px;
+    width: 170px;
     height: auto;
+    margin-top: 5px;
 }
 
 .login-box {
@@ -151,7 +147,7 @@ main
 
 main > div {
 
-    padding: 50px 240px;
+    padding: 50px 220px;
 }
 
 main > div:nth-child(even) {
@@ -166,24 +162,22 @@ main > div:nth-child(even) {
     justify-content: center;
 }
 
-.article {
-
-    flex-shrink: 0;
-    background-color: #1e90ff;
-    padding-left: 100px;
-}
-
 .article img {
 
-    width: 1180px;
+    width: 900px;
     height: auto;
 }
 
 .side-article {
 
     flex-grow: 1;
-    background-color: #ffc0cb;
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.side-article h2 {
+
+    margin-bottom: 30px;
 }
 
 .flop-container {
