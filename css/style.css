@@ -35,6 +35,40 @@ body {
     font-size: 30px;
 }
 
+button:hover {
+
+    cursor: pointer;
+}
+
+.white-btn:hover {
+
+    color: #7288da;
+}
+
+.black-btn {
+
+    background-color: #23272a;
+    color: #ffffff;
+}
+
+.black-btn:hover {
+
+    box-shadow: 0 12px 16px 0 rgba(35,39,42,0.60);
+}
+
+.blue-btn {
+
+    background-color: #7288da;
+    color: #ffffff;
+}
+
+.blue-btn:hover {
+
+    background-color: #88a0f9;
+    box-shadow: 0 12px 16px 0 rgba(35,39,42,0.60);
+}
+
+
 h2 {
 
     font-size: 65px;
@@ -106,6 +140,12 @@ header {
     all: unset;
 }
 
+.link-box a:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
 /*** 2nd header container ***/
 .main-article-container {
@@ -133,12 +173,6 @@ header {
     display: flex;
     gap: 30px;
     margin-bottom: 135px;
-}
-
-.btn-box .chang-color {
-
-    background-color: #23272a;
-    color: #ffffff;
 }
 
 /****** 
@@ -208,12 +242,6 @@ main > div:nth-child(even) {
     flex-direction: column;
     align-items: center;
     padding: 80px 150px 200px;
-}
-
-.big-article-container button {
-
-    background-color: #7288da;
-    color: #ffffff;
 }
 
 .big-article-container h2,
@@ -300,6 +328,16 @@ footer {
     gap: 30px;
 }
 
+.logo-social a {
+
+    all: unset;
+}
+
+.logo-social a:hover {
+
+    cursor: pointer;
+}
+
 .logo-social i {
 
     font-size: 30px;
@@ -335,6 +373,12 @@ footer {
     all: unset;
 }
 
+.element-article a:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 /*** bottom footer container ***/
 .bottom-footer-container {
 
@@ -342,12 +386,4 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-}
-
-
-
-.bottom-footer-container button {
-
-    background-color: #7288da;
-    color: #ffffff;
 }
