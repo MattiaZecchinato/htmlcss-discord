@@ -266,8 +266,43 @@ footer {
 
     height: 350px;
     width: 360px;
+}
 
-    background-color: #f08080;
+.side-multiple h3 {
+
+    color: #7288da;
+    font-size: 45px;
+}
+
+.side-multiple ul {
+
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.side-multiple .select-lang img {
+
+    width: 35px;
+    height: auto;
+}
+
+.select-lang {
+
+    gap: 5px;
+}
+
+.logo-social {
+
+    gap: 30px;
+}
+
+.logo-social i {
+
+    font-size: 30px;
 }
 
 .multiple-article {
@@ -282,7 +317,7 @@ footer {
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     list-style-type: none;
     color: #ffffff;
     font-size: 20px;
