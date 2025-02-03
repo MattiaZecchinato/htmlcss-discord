@@ -204,15 +204,42 @@ main > div:nth-child(even) {
 /*** big article container ***/
 .big-article-container {
 
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.big-article-box {
+.big-article-container button {
 
-    height: 500px;
+    background-color: #7288da;
+    color: #ffffff;
+}
 
-    flex-grow: 1;
-    background-color: #228b22;
+.big-article-container h2,
+.big-article-container p {
+
+    text-align: center;
+    padding: 0px 120px;
+}
+
+.big-article-container h2 {
+
+    margin-bottom: 10px;
+}
+
+.background-text {
+
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 60px 0px;
+    margin-bottom: 50px;
+}
+.big-article-container img {
+
+    width: 100%;
 }
 
 /*** multiple article container ***/
