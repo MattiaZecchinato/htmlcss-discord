@@ -19,6 +19,15 @@ div > div {
     border: 2px dashed #000000;
 }
 
+button {
+
+    border: none;
+    border-radius: 50px;
+    padding: 27px 32px;
+    font-size: 25px;
+}
+
+
 /****** 
 header 
 ******/
@@ -62,14 +71,6 @@ header
     justify-content: flex-end;
 }
 
-.login-box button {
-
-    border: none;
-    border-radius: 50px;
-    padding: 27px 32px;
-    font-size: 25px;
-}
-
 .link-box {
 
     flex-grow: 1;
@@ -93,7 +94,8 @@ header
 /*** 2nd header container ***/
 .main-article-container {
 
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     padding: 50px 500px;
