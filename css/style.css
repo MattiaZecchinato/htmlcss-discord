@@ -147,7 +147,7 @@ main
 
 main > div {
 
-    padding: 50px 220px;
+    padding: 50px 150px;
 }
 
 main > div:nth-child(even) {
@@ -162,17 +162,33 @@ main > div:nth-child(even) {
     justify-content: center;
 }
 
+.article {
+
+    padding-left: 70px;
+}
+
 .article img {
 
     width: 900px;
     height: auto;
 }
 
+.article-2 {
+
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.article-2 img {
+
+    width: 850px;
+    height: auto;
+}
+
 .side-article {
 
     flex-grow: 1;
-    padding-top: 50px;
-    padding-left: 20px;
+    padding: 50px 70px 0px 20px;
 }
 
 .side-article h2 {
