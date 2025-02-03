@@ -27,10 +27,12 @@ header
 /*** 1st header container ***/
 .bar-container {
 
-    background-color: #add8e6;
+    background-color: #255ee9;
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 20px 360px;
+    font-size: 25px;
 }
 
 .bar-container > div {
@@ -40,9 +42,18 @@ header
 }
 
 /* bar-container elements */
+
 .side-box {
 
     width: 240px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.logo-box img {
+
+    width: 247px;
+    height: auto;
 }
 
 .login-box {
@@ -51,10 +62,18 @@ header
     justify-content: flex-end;
 }
 
+.login-box button {
+
+    border: none;
+    border-radius: 50px;
+    padding: 27px 32px;
+    font-size: 25px;
+}
+
 .link-box {
 
     flex-grow: 1;
-    flex-shrink: 1;
+    color: #ffffff;
 }
 
 .link-box ul {
