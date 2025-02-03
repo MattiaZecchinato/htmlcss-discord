@@ -14,10 +14,10 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-div > * {
+/* div > * {
 
     border: 2px dashed #000000;
-}
+} */
 
 .small-btn {
 
@@ -147,7 +147,7 @@ main
 
 main > div {
 
-    padding: 50px 150px;
+    padding: 100px 150px 80px;
 }
 
 main > div:nth-child(even) {
@@ -207,6 +207,7 @@ main > div:nth-child(even) {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 80px 150px 200px;
 }
 
 .big-article-container button {
@@ -249,7 +250,7 @@ footer
 footer {
 
     background-color: #23272a;
-    padding: 10px 150px 0px;
+    padding: 60px 150px;
 }
 
 /*** multiple article container ***/
@@ -257,8 +258,7 @@ footer {
 
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     border-bottom: 2px solid #7288da;
 }
 
@@ -338,21 +338,16 @@ footer {
 /*** bottom footer container ***/
 .bottom-footer-container {
 
-    background-color: #7fffd4;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
-    margin-top: 30px;
+    align-items: center;
+    padding-top: 10px;
 }
 
-div.bottom-footer-container > * {
 
-    background-color: #ffb6c1;
-    padding: 10px 15px;
-}
 
-.footer-btn {
+.bottom-footer-container button {
 
-    all: unset;
-    border: 2px dashed #000000;
+    background-color: #7288da;
+    color: #ffffff;
 }
